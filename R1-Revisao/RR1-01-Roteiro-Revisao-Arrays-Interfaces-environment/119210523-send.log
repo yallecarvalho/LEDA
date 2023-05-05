@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-03-17T11:24:29.612-0300</date>
+  <logger>YALLE CATHARINNE VIEIRA DE CARVALHO</logger>
+  <level>FINE</level>
+  <message>File 119210523-YALLE CATHARINNE VIEIRA DE CARVALHO.zip was received. It was sent by YALLE CATHARINNE VIEIRA DE CARVALHO from IP 150.165.42.166 at 17-03-2023 11*24*29</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2023-03-25T12:30:45.594-0300</date>
+  <logger>YALLE CATHARINNE VIEIRA DE CARVALHO</logger>
+  <level>FINE</level>
+  <message>File 119210523-YALLE CATHARINNE VIEIRA DE CARVALHO.zip was received. It was sent by YALLE CATHARINNE VIEIRA DE CARVALHO from IP 192.168.0.14 at 25-03-2023 12*30*45</message>
+</record>

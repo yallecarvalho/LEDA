@@ -215,18 +215,27 @@ public class BSTImpl<T extends Comparable<T>> implements BST<T> {
 	@Override
 	public T[] postOrder() {
 		ArrayList<T> list = new ArrayList<T>();
-		// preencher
-		// postOrder(list.root);
+		this.postOrder(list, root);
 		return (T[]) list.toArray(new Comparable[0]);
 	}
 
 	private void postOrder(ArrayList<T> array, BSTNode<T> node) {
+		int i = 0;
 		if (!node.isEmpty()) {
-			// ...
-			// ...
-			// list.add(node); //aqui provavelmente seria a chamada recursiva
-		} else {
-			// nao faz nada
+			if(!node.getLeft().isEmpty()){
+				array.add(i, node.getLeft().getData());
+				i++;
+				this.postOrder(array, (BSTNode<T>) node.getLeft());
+			} else {
+				if(!node.getRight().isEmpty()){
+					array.add(i, node.getRight().getData());
+					i++;
+				} else {
+					array.add(i, this.root.getData());
+					i++;
+				}
+
+			}
 		}
 	}
 
